@@ -10,3 +10,24 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card-img-top{
+    width: 11em;
+    height: 150px;
+    background-color: lightgrey;
+    
+}
+.jumbotron{
+    padding: 20px;
+    background-color: lightgrey;
+    margin-bottom: 30px;
+}
+.card{
+    float: left;
+    margin: 10px;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    display: block;
+}
