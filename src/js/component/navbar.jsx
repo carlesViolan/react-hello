@@ -26,7 +26,7 @@ function navbar (){
                 </li>
                 </ul>
             </div>
-</nav>
+    </nav>
                 );
             };
   

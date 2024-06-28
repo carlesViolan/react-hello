@@ -10,8 +10,11 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.navbar-nav{
+    margin-left: 0%;
+}
 .card-img-top{
-    width: 11em;
+    width: 16em;
     height: 150px;
     background-color: lightgrey;
     
@@ -23,11 +26,23 @@
 }
 .card{
     float: left;
-    margin: 10px;
+    margin: auto;
 }
 
 footer{
     float: left;
     width: 100%;
     display: block;
+    
 }
+.card.text-center {
+    margin-left: 2%;
+    margin-bottom: 10px;;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+      width: 100%;
+    }
+  }

@@ -13,14 +13,15 @@ import Footer from "./footer.jsx";
 const Home = () => {
 	return (
 		<>
+		
 		<div class="container">
-			<NavBar />
+		<NavBar />
 			<Jumbotron />
 			<Card /><Card /><Card /><Card /><Card />
 			<Card /><Card /><Card /><Card /><Card />
-			
+		<Footer />	
 		</div>
-		<div class="container"><Footer /></div>
+		
 		
 			
 		</>
